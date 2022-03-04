@@ -38,14 +38,6 @@ class SearchFooter extends StatelessWidget {
                 color: Color(0xFF70757A),
                 size: 12,
               ),
-              const SizedBox(width: 10),
-              const Text(
-                "100016, Mumbai, Maharashtra",
-                style: TextStyle(
-                  fontSize: 14,
-                  color: primaryColor,
-                ),
-              ),
             ],
           ),
         ),

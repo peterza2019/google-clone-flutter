@@ -59,7 +59,9 @@ class SearchScreen extends StatelessWidget {
                           // showing the time it took to fetch results
                           Container(
                             padding: EdgeInsets.only(
-                                left: size.width <= 768 ? 10 : 150, top: 12),
+                              left: size.width <= 768 ? 10 : 150,
+                              top: 12,
+                            ),
                             child: Text(
                               "About ${snapshot.data?['searchInformation']['formattedTotalResults']} results (${snapshot.data?['searchInformation']['formattedSearchTime']} seconds)",
                               style: const TextStyle(
@@ -68,6 +70,7 @@ class SearchScreen extends StatelessWidget {
                               ),
                             ),
                           ),
+
                           // displaying the results
                           ListView.builder(
                             physics: const NeverScrollableScrollPhysics(),

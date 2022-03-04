@@ -32,23 +32,11 @@ class MobileScreenLayout extends StatelessWidget {
               labelColor: blueColor,
               unselectedLabelColor: Colors.grey,
               indicatorColor: blueColor,
-              tabs: [
-                Tab(text: 'ALL'),
-                Tab(text: 'IMAGES'),
-              ],
+              tabs: [],
             ),
           ),
         ),
-        actions: [
-          IconButton(
-              icon: SvgPicture.asset(
-                'assets/images/more-apps.svg',
-                color: primaryColor,
-              ),
-              onPressed: () {}),
-          const SizedBox(width: 10),
-          const SigninButton(),
-        ],
+        actions: [],
       ),
       body: Padding(
         padding: const EdgeInsets.only(left: 5, right: 5),

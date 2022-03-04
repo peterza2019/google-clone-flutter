@@ -9,7 +9,7 @@ class TranslationButtons extends StatelessWidget {
     return Wrap(
       alignment: WrapAlignment.center,
       children: const [
-        Text('Google offered in:'),
+        Text('Ask Nazia offered in:'),
         SizedBox(width: 5),
         LanguageText(title: 'हिन्दी'),
         SizedBox(width: 5),
@@ -17,17 +17,6 @@ class TranslationButtons extends StatelessWidget {
         SizedBox(width: 5),
         LanguageText(title: 'తెలుగు'),
         SizedBox(width: 5),
-        LanguageText(title: 'मराठी'),
-        SizedBox(width: 5),
-        LanguageText(title: 'தமிழ்'),
-        SizedBox(width: 5),
-        LanguageText(title: 'ગુજરાતી'),
-        SizedBox(width: 5),
-        LanguageText(title: 'ಕನ್ನಡ'),
-        SizedBox(width: 5),
-        LanguageText(title: 'മലയാളം'),
-        SizedBox(width: 5),
-        LanguageText(title: 'ਪੰਜਾਬੀ'),
       ],
     );
   }
